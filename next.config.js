@@ -9,6 +9,9 @@ const nextConfig = {
       }, {
         protocol: 'https',
         hostname: 'animationvisarts.com'
+      }, {
+        protocol: 'https',
+        hostname: 'links.papareact.com'
       }
     ]
   }
