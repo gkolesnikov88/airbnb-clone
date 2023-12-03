@@ -10,6 +10,7 @@ function MediumCard({img, title}) {
             <Image 
                 src={img}
                 layout='fill'
+                className='rounded-xl'
             />
         </div>
         <h3 className='text-2xl mt-3'>{title}</h3>

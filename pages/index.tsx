@@ -38,13 +38,15 @@ export default function Home({ exploreData, cardsData }) {
 
         <section>
           <h2 className='text-4xl font-semibold py-8'>Live Anywhere</h2>
-          {cardsData?.map(({img, title}) => (
-            <MediumCard 
-              key={img}
-              img={img}
-              title={title}
-            />
-          ))}
+          <div className='flex space-x-3 overflow-scroll no-scrollbar p-3 -ml-3'>
+            {cardsData?.map(({img, title}) => (
+              <MediumCard 
+                key={img}
+                img={img}
+                title={title}
+              />
+            ))}
+          </div>          
         </section>
       </main>
     </div>
