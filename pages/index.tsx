@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 import SmallCard from '../components/SmallCard'
 import MediumCard from '../components/MediumCard'
+import LargeCard from '../components/LargeCard'
 
 export default function Home({ exploreData, cardsData }) {
   return (
@@ -48,6 +49,13 @@ export default function Home({ exploreData, cardsData }) {
             ))}
           </div>          
         </section>
+
+        <LargeCard 
+          img='https://venturebeat.com/wp-content/uploads/2014/07/airbnb-logo-red.jpg'
+          title='The Greatest Outdoors'
+          description='Wishlist curated by Airbnb.'
+          buttonText='Get Inspired'
+        />
       </main>
     </div>
   )
